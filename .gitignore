@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Node modules (if you later move to React/Vite)
+node_modules/
+
+# Build folders
+dist/
+build/
+
+# Cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
