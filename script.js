@@ -25,7 +25,7 @@ function animateHeroSection() {
   heroElements.forEach((heroElement, animationIndex) => {
     heroElement.style.setProperty(
       "--animation-delay",
-      `${animationIndex * 75}ms`,
+      `${animationIndex * 85}ms`,
     );
     heroElement.classList.add("page-load-enter");
   });
@@ -47,7 +47,7 @@ function animateSectionsOnScroll() {
     animatedElement.classList.add("scroll-reveal");
     animatedElement.style.setProperty(
       "--animation-delay",
-      `${Math.min(animationIndex % 8, 6) * 55}ms`,
+      `${Math.min(animationIndex % 8, 6) * 70}ms`,
     );
   });
 
